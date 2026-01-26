@@ -1,2 +1,8 @@
-# -_pr35_---
-Volokitina-pr35-Habit Tracker
+# HabitTracker
+Сайт для выроботки привычки
+## Технологии
+- PHP
+- HTML/CSS
+- MySQL
+## Статус
+В разработке. Управление в YouTrack.
