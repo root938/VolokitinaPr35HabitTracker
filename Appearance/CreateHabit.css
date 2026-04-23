@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+body {
+    margin: 0;
+    background-color: #1B1E28;
+}
+
+.wrapper {
+    margin-top: 55px;
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    width: 900px;
+    background-color: #2A2D3A;
+    border-radius: 30px;
+    padding: 40px;
+    box-shadow: 0 0 25px #FF006E;
+}
+
+.title {
+    color: #A7FF0A;
+    font-size: 37px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.columns {
+    display: flex;
+    gap: 40px;
+}
+
+.col {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.input, .textarea, .select {
+    width: 100%;
+    border: none;
+    padding: 18px;
+    font-size: 18px;
+    font-weight: 200;
+    color: #555555;
+    margin-bottom: 20px;
+    outline-color: #A7FF0A;
+}
+
+.input, .select {
+    border-radius: 25px;
+    height: 60px;
+}
+
+.textarea {
+    height: 140px;
+    border-radius: 25px;
+    resize: none;
+}
+
+.time-display {
+    height: 140px;
+    display: flex;
+    gap: 10px;
+    align-items: stretch;
+}
+
+.digit {
+    flex: 1;
+    background-color: #FF3F81;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.digit input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: transparent;
+    text-align: center;
+    font-size: 90px;
+    font-weight: 900;
+    color: white;
+    outline: none;
+}
+
+.digit input::-webkit-outer-spin-button,
+.digit input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.digit input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.colon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 90px;
+    font-weight: 900;
+    color: white;
+    line-height: 1;
+}
+
+.button {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    height: 65px;
+}
+
+.button button {
+    background-color: #A7FF0A;
+    border: none;
+    border-radius: 30px;
+    padding: 15px 60px;
+    font-size: 24px;
+    font-weight: 900;
+    color: black;
+    cursor: pointer;
+}
+
+.input:focus, .textarea:focus, .select:focus, .digit input:focus {
+    outline: 2px solid #A7FF0A; 
+    outline-offset: 3px;
+}
