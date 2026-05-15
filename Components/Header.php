@@ -101,13 +101,13 @@ $bgColor = isset($headerColor) ? $headerColor : '#FF3F81';
         <img src="Img/UI/No.png" alt="Close" class="close-btn-img" onclick="toggleMenu()">
         
         <ul class="menu-list">
-            <li><a href="profile.php">Профиль</a></li>
+            <li><a href="Profile.php">Профиль</a></li>
             <li><a href="index.php">Главная</a></li>
-            <li><a href="add_habit.php">Создание привычек</a></li>
-            <li><a href="calendar.php">Календарь</a></li>
-            <li><a href="statistics.php">Статистика</a></li>
-            <li><a href="achievements.php">Достижения</a></li>
-            <li><a href="history.php">История</a></li>
+            <li><a href="CreateHabit.php">Создание привычек</a></li>
+            <li><a href="Calendar.php">Календарь</a></li>
+            <li><a href="Statistics.php">Статистика</a></li>
+            <li><a href="Achievement.php">Достижения</a></li>
+            <li><a href="History.php">История</a></li>
         </ul>
     </div>
 </div>
