@@ -1,4 +1,4 @@
-name: PHP Checks
+name: PHP Checks Automation
 on:
   push:
     branches: [ main, master ]
