@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<ruleset name="My Project">
+    <description>PHP_CodeSniffer config</description>
+    <file>.</file>
+    <exclude-pattern>vendor/*</exclude-pattern>
+    <exclude-pattern>node_modules/*</exclude-pattern>
+    <exclude-pattern>*.min.js</exclude-pattern>
+    <rule ref="PSR12"/>
+    <arg name="colors"/>
+    <arg value="sp"/>
+</ruleset>
